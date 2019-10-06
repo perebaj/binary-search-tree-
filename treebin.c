@@ -38,6 +38,30 @@ int altura(arvore *root)
         return (heightLeft > heightRight) ? heightLeft + 1 : heightRight + 1;
     }
 }
+//3b Versão iterativa
+
+// Recebe a raiz r de uma árvore binária e
+// imprime os conteúdos dos seus nós
+// em ordem e-r-d.
+
+void erd_i (arvore r) {
+   criapilha ();  // pilha de nós 
+   empilha (r);
+   while (true) {
+      x = desempilha ();
+      if (x != NULL) {
+         empilha (x);
+         empilha (x->esq);
+      }
+      else {
+         if (pilhavazia ()) break;
+         x = desempilha ();
+         printf ("%d\n", x->conteudo);
+         empilha (x->dir);
+      }
+   }
+   liberapilha ();
+}
 
 /* 4) Considere uma árvore binária já construída, mas com os campos pai não
 preenchidos. Escreva uma função que preencha corretamente todos os campos pai
