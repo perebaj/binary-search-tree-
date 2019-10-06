@@ -1,10 +1,8 @@
 # binary-search-tree // Lista 1 de Algoritmos e Estrutura de Dados 2
 
 ## Questão 8) 
-
-antes
-https://user-images.githubusercontent.com/39134841/66275127-ee592b80-e85b-11e9-9912-8d2b1543d9dc.png
-depos de remover o 30
-https://user-images.githubusercontent.com/39134841/66275126-edc09500-e85b-11e9-8c7f-ea7627063513.png
+![binarytree1](https://user-images.githubusercontent.com/39134841/66275185-8e16b980-e85c-11e9-8e32-649e0349d7cb.png)
+Depois de remover o 30
+![tree2](https://user-images.githubusercontent.com/39134841/66275184-8e16b980-e85c-11e9-8665-05e79df76aa5.png)
 
 
